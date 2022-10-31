@@ -8,7 +8,7 @@ namespace BankEncapsulation
 {
     internal class BankAccount
     {
-        private double Balance; // PRIVATE 
+        private double Balance = 0; // PRIVATE 
 
         public void Deposit(double deposit) // DEPOSIT 
         {
